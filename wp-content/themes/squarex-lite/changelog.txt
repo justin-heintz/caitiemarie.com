@@ -1,0 +1,19 @@
+== Squarex WordPress Theme ==
+
+= 1.1.2 - 8.09.2016
+* Fixed: posts grid when infinite scrolling is enabled
+
+= 1.1.1 - 18.08.2016
+* Fixed: child page grid
+
+= 1.1.0 - 17.08.2016
+* Changed: Big update
+
+= 1.0.1 - 27.07.2016
+* Fixed: options escaped
+* Updated: enabled the core function from custom logo
+* Changed: used the core textarea customize control
+* Changed: some other changes
+
+= 1.0 - 1.02.2016
+* Initial release.

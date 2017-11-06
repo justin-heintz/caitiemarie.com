@@ -1,0 +1,1 @@
+<img class="nimbus_1170_315" src="<?php echo get_template_directory_uri(); ?>/images/preview/nimbus_1170_315_<?php echo rand(1,3); ?>.jpg" alt="<?php the_title(); ?>" />

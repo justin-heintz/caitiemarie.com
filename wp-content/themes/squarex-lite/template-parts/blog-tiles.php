@@ -1,0 +1,23 @@
+<?php
+/**
+ * @package Squarex Lite
+ */
+?>
+
+<?php if ( have_posts() ) : ?>
+	<?php while ( have_posts() ) : the_post(); ?>
+<div class="box">
+<div class="innerBox"<?php squarex_bg_tile(); ?>>
+	<a href="<?php the_permalink(); ?>" rel="bookmark">
+		<div class="titleBox">
+			<article id="post-<?php the_ID(); ?>"<?php post_class(); ?>>
+				<h3<?php if ( ! has_post_thumbnail() ) { ?> class="no-thumb"<?php } ?>><?php the_title(); ?></h3>
+			</article>
+		</div>
+	</a>
+</div><!-- .innerBox -->
+</div>
+	<?php endwhile;?>
+<?php else : ?>
+	<?php get_template_part( 'no-results', 'index' ); ?>
+<?php endif;  // have_posts() ?>

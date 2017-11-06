@@ -1,0 +1,33 @@
+v1.1.0 	- Set all EOL to CRLF
+
+v1.0.9 	- Fixed issue with featured image not turning off on posts/pages
+	- Fixed javascript TypeError on nimbus_public.js
+	- Removed jquery-ui-core
+
+v1.0.8 	- Replaced hardcoded date with get_option(date_format)
+	- Updated SupportInfo url
+	- Updated the reset alert text on the options panel
+	- Updated layout tags
+
+v1.0.7	- Removed custom-header and editor-style tags as they don't apply
+
+v1.0.6	- Fixed errors reported from new sanitize functions
+
+v1.0.5	- Removed term WordPress from footer
+
+v1.0.4	- Fixed errors caused by deleted options refrenced in wp_head
+
+v1.0.3	- Updated sanitize functions in theme options panel
+
+v1.0.2	- Added theme support for custom-background
+
+v1.0.1	- Added constants SALESPAGEURL and SUPPORTINFOURL
+	- Removed unused constants CSS_PATH and JS_PATH
+	- Use new sales constants in options panel
+	- Open all off-site links in new tab
+	- Remove theme option to set posts per page
+	- New Theme URI
+	- Fixed licence.txt copyright info
+	- Clarify photo attribution in readme.txt
+
+v1.0.0	- Initial Launch 
